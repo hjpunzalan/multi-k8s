@@ -15,9 +15,3 @@ spec:
       containers:
         - name: client
           image: hjpunzalan/multi-client
-          resources:
-            limits:
-              memory: "128Mi"
-              cpu: "500m"
-          ports:
-            - containerPort: 3000

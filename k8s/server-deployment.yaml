@@ -15,9 +15,3 @@ spec:
       containers:
         - name: server
           image: hjpunzalan/multi-server
-          resources:
-            limits:
-              memory: "128Mi"
-              cpu: "500m"
-          ports:
-            - containerPort: 5000
